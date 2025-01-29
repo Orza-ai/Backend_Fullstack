@@ -4,7 +4,7 @@ import Channel from "../models/Channel.model.js";
 class ChannelRepository{
     /* 
     MongoDB:
-     async createChannel(user_id, {name, workspace_id}){
+    async createChannel(user_id, {name, workspace_id}){
         return await Channel.create({
             name,
             workspace: workspace_id,
